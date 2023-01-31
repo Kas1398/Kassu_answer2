@@ -14,9 +14,13 @@
 - What is the maximum number of steps it would take to perform a linear search on an ordered array of size 100,000?
   > Refer to `./src/search-linear.cpp`
 
+ ans: The maximum number of steps on linear search will be 100,000 steps.
+
 ## Task 3/5: Decrease-and-Conquer
 
 - What is the maximum number of steps it would take to perform a binary search on an ordered array of size 100,000?
+
+ans: The maximum number of steps on binary search will be 16 steps.
 
   > Refer to `./src/search-binary.cpp`
 
@@ -24,9 +28,11 @@
 
 32 teams qualified for the 2014 World Cup. If the names of the teams were arranged in sorted order (an array), how many items in the array would binary search have to examine to find the location of a particular team in the array, in the worst case?
 
+ans: to find the location of a team in the 2014 World Cup, where there were 32 teams, binary search would have to examine log2(32) = 5 items in the worst case.
+
 - [] At most, 32.
 - [] At most, 1.
-- [] At most, 6.
+- [X] At most, 6.?????
 - [] At most, 16.
 
 ## Task 5/5: Individual, at home
