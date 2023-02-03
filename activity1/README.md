@@ -20,7 +20,7 @@
 
 - What is the maximum number of steps it would take to perform a binary search on an ordered array of size 100,000?
 
-ans: The maximum number of steps on binary search will be 16 steps.
+ans: The maximum number of steps on binary search will be 17 steps.
 
   > Refer to `./src/search-binary.cpp`
 
